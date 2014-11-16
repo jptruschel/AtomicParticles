@@ -1,0 +1,14 @@
+﻿Build started 19/10/2014 23:46:13.
+     1>Project "D:\Development\OpenGl\CWAP\CWAP\src\AtomicParticles\AtParticles_vs2008.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (oclSimpleGL.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\win32\Debug\AtomicParticles.exe" /INCREMENTAL /NOLOGO /LIBPATH:/lib/Win32 /LIBPATH:../../common/lib/Win32 /LIBPATH:../../../shared/lib/Win32 oclUtils32D.lib shrUtils32D.lib glew32.lib freeglut.lib OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\win32\Debug\AtomicParticles.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\bin\win32\Debug\AtomicParticles.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+         D:\Development\OpenGl\CWAP\shared\lib\Win32\shrUtils32D.lib
+         D:\Development\OpenGl\CWAP\CWAP\common\lib\Win32\oclUtils32D.lib
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         AtParticles_vs2008.vcxproj -> D:\Development\OpenGl\CWAP\CWAP\src\AtomicParticles\..\..\bin\win32\Debug\AtomicParticles.exe
+     1>Done Building Project "D:\Development\OpenGl\CWAP\CWAP\src\AtomicParticles\AtParticles_vs2008.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.88

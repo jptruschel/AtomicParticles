@@ -1,0 +1,26 @@
+﻿Build started 13/10/2014 21:05:18.
+     1>Project "D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\src\oclSimpleGL\oclSimpleGL_vs2008.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../common/inc/ /I../../../shared/inc/ /Zi /nologo /W3 /WX- /O2 /D WIN32 /D _WINDOWS /D _NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /errorReport:prompt oclSimpleGL.cpp
+         oclSimpleGL.cpp
+         Note: including windows.h
+         Note: including math.h
+         Note: including assert.h
+         Note: including shrUtils.h
+         Note: including opencl.h
+         Note: including windows.h
+         Note: including math.h
+         Note: including assert.h
+         Note: including time.h
+     1>oclSimpleGL.cpp(481): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>oclSimpleGL.cpp(660): warning C4800: 'shrBOOL' : forcing value to bool 'true' or 'false' (performance warning)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\win64\Release\oclSimpleGL.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:/lib/x64 /LIBPATH:../../common/lib/x64 /LIBPATH:../../../shared/lib/x64 oclUtils64.lib shrUtils64.lib glew64.lib freeglut.lib OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\..\bin\win64\Release\oclSimpleGL.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"..\..\bin\win64\Release\oclSimpleGL.lib" /MACHINE:X64 Release\oclSimpleGL.obj
+         "D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\shared\lib\x64\shrUtils64.lib"
+         "D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\common\lib\x64\oclUtils64.lib"
+         oclSimpleGL_vs2008.vcxproj -> D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\src\oclSimpleGL\..\..\bin\win64\Release\oclSimpleGL.exe
+     1>Done Building Project "D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\src\oclSimpleGL\oclSimpleGL_vs2008.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.95

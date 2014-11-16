@@ -1,0 +1,25 @@
+﻿Build started 19/10/2014 23:41:57.
+     1>Project "D:\Development\OpenGl\CWAP\CWAP\src\AtomicParticles\oclSimpleGL_vs2008.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../common/inc/ /I../../../shared/inc/ /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+         Note: including windows.h
+         Note: including math.h
+         Note: including assert.h
+         Note: including shrUtils.h
+         Note: including opencl.h
+         Note: including windows.h
+         Note: including math.h
+         Note: including assert.h
+         Note: including time.h
+     1>main.cpp(662): warning C4800: 'shrBOOL' : forcing value to bool 'true' or 'false' (performance warning)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\win64\Debug\oclSimpleGL.exe" /INCREMENTAL /NOLOGO /LIBPATH:/lib/x64 /LIBPATH:../../common/lib/x64 /LIBPATH:../../../shared/lib/x64 oclUtils64D.lib shrUtils64D.lib glew64.lib freeglut.lib OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\win64\Debug\oclSimpleGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\bin\win64\Debug\oclSimpleGL.lib" /MACHINE:X64 Debug\main.obj
+         D:\Development\OpenGl\CWAP\shared\lib\x64\shrUtils64D.lib
+         D:\Development\OpenGl\CWAP\CWAP\common\lib\x64\oclUtils64D.lib
+         oclSimpleGL_vs2008.vcxproj -> D:\Development\OpenGl\CWAP\CWAP\src\AtomicParticles\..\..\bin\win64\Debug\oclSimpleGL.exe
+     1>Done Building Project "D:\Development\OpenGl\CWAP\CWAP\src\AtomicParticles\oclSimpleGL_vs2008.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.46

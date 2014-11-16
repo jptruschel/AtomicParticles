@@ -1,0 +1,21 @@
+﻿Build started 13/10/2014 13:39:13.
+     1>Project "D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\shared\shrUtils_vs2008.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Iinc /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64/Debug\\" /Fd"x64/Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\cmd_arg_reader.cpp src\shrUtils.cpp
+         cmd_arg_reader.cpp
+         shrUtils.cpp
+         Note: including windows.h
+         Note: including math.h
+         Note: including assert.h
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\shared\lib/x64\shrUtils.lib) does not match the Library's OutputFile property value (D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\shared\lib\x64\shrUtils64D.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(shrUtils) does not match the Library's OutputFile property value (shrUtils64D). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"lib/x64\shrUtils64D.lib" /LIBPATH:lib /NOLOGO /MACHINE:X64 x64/Debug\cmd_arg_reader.obj
+         x64/Debug\shrUtils.obj
+         shrUtils_vs2008.vcxproj -> D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\shared\lib/x64\shrUtils.lib
+     1>Done Building Project "D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\shared\shrUtils_vs2008.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.24

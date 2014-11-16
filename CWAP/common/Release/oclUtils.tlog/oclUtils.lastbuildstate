@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+Release|x64|D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\src\oclSimpleGL\|

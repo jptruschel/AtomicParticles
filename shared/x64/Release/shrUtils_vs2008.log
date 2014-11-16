@@ -1,0 +1,27 @@
+﻿Build started 19/10/2014 23:29:48.
+     1>Project "D:\Development\OpenGl\CW-AP\shared\shrUtils_vs2008.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Iinc /nologo /W4 /WX- /O2 /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64/Release\\" /Fd"x64/Release\vc120.pdb" /FR"x64/Release\\" /Gd /TP /errorReport:prompt src\cmd_arg_reader.cpp src\shrUtils.cpp
+         cmd_arg_reader.cpp
+         shrUtils.cpp
+         Note: including windows.h
+         Note: including math.h
+         Note: including assert.h
+         Generating Code...
+     1>d:\development\opengl\cw-ap\shared\inc\cmd_arg_reader.h(379): warning C4702: unreachable code
+     1>d:\development\opengl\cw-ap\shared\inc\cmd_arg_reader.h(361): warning C4702: unreachable code
+     1>d:\development\opengl\cw-ap\shared\inc\cmd_arg_reader.h(361): warning C4702: unreachable code
+     1>d:\development\opengl\cw-ap\shared\inc\cmd_arg_reader.h(361): warning C4702: unreachable code
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(D:\Development\OpenGl\CW-AP\shared\lib/x64\shrUtils.lib) does not match the Library's OutputFile property value (D:\Development\OpenGl\CW-AP\shared\lib\x64\shrUtils64.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(shrUtils) does not match the Library's OutputFile property value (shrUtils64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"lib/x64\shrUtils64.lib" /LIBPATH:lib /NOLOGO /MACHINE:X64 x64/Release\cmd_arg_reader.obj
+         x64/Release\shrUtils.obj
+         shrUtils_vs2008.vcxproj -> D:\Development\OpenGl\CW-AP\shared\lib/x64\shrUtils.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"lib/x64\shrUtils.bsc" /n x64/Release\cmd_arg_reader.sbr x64/Release\shrUtils.sbr
+     1>Done Building Project "D:\Development\OpenGl\CW-AP\shared\shrUtils_vs2008.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.62

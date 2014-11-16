@@ -1,0 +1,36 @@
+﻿Build started 13/10/2014 13:43:52.
+     1>Project "D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\common\oclUtils_vs2008.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Iinc/ /I../../shared/inc/ /Zi /nologo /W3 /WX- /O2 /D WIN32 /D _WINDOWS /D _NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /errorReport:prompt src\oclUtils.cpp
+         oclUtils.cpp
+         Note: including windows.h
+         Note: including math.h
+         Note: including assert.h
+         Note: including shrUtils.h
+         Note: including opencl.h
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\common\lib/x64\oclUtils.lib) does not match the Library's OutputFile property value (D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\common\lib\x64\oclUtils64.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(oclUtils) does not match the Library's OutputFile property value (oclUtils64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"lib/x64\oclUtils64.lib" OpenCL.lib /LIBPATH:/lib/x64 /LIBPATH:lib/x64 /LIBPATH:../../shared/lib/x64 /NOLOGO /MACHINE:X64 Release\oclUtils.obj
+         oclUtils_vs2008.vcxproj -> D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\common\lib/x64\oclUtils.lib
+       PostBuildEvent:
+         mkdir ..\bin\Win64\Release
+         copy ..\..\shared\bin\win64\Release\*.dll ..\bin\Win64\Release
+         copy *.bat ..\bin\Win64\Release
+         
+         :VCEnd
+         A subdirectory or file ..\bin\Win64\Release already exists.
+         The system cannot find the path specified.
+         *.bat 
+         The system cannot find the file specified.
+                 0 file(s) copied.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: The command "mkdir ..\bin\Win64\Release
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: copy ..\..\shared\bin\win64\Release\*.dll ..\bin\Win64\Release
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: copy *.bat ..\bin\Win64\Release
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\common\oclUtils_vs2008.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.70

@@ -1,0 +1,27 @@
+﻿Build started 13/10/2014 15:23:21.
+     1>Project "D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\common\oclUtils_vs2008.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\common\lib/x64\oclUtils.lib) does not match the Library's OutputFile property value (D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\common\lib\x64\oclUtils64D.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(oclUtils) does not match the Library's OutputFile property value (oclUtils64D). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>Lib:
+         oclUtils_vs2008.vcxproj -> D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\common\lib/x64\oclUtils.lib
+       PostBuildEvent:
+         mkdir ..\bin\Win64\Debug
+         copy ..\..\shared\bin\win64\Debug\*.dll ..\bin\Win64\Debug
+         copy *.bat ..\bin\Win64\Debug
+         
+         :VCEnd
+         A subdirectory or file ..\bin\Win64\Debug already exists.
+         The system cannot find the path specified.
+         *.bat 
+         The system cannot find the file specified.
+                 0 file(s) copied.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: The command "mkdir ..\bin\Win64\Debug
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: copy ..\..\shared\bin\win64\Debug\*.dll ..\bin\Win64\Debug
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: copy *.bat ..\bin\Win64\Debug
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "D:\Development\OpenGl\AtomicParticles\research\NVIDIA GPU Computing SDK\OpenCL\common\oclUtils_vs2008.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.23
